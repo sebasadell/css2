@@ -1,0 +1,116 @@
+body {
+	background-image: url(imagenes/fondo.jpg);
+	color: #0ff;
+}
+
+h1 {
+	color: #f00;
+	text-align: center;
+	font-family: Arial;
+}
+
+p {
+	font-family: Verdana;
+}
+
+a {
+	color: #ff0;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+.wikipedia {
+	padding: 0 0 0 50px;
+	background:url(imagenes/wikipedia.ico) no-repeat left center;
+}
+
+table {
+	empty-cells: hide;
+	border-collapse: collapse;
+	background-color: #fff;
+	border: 3px solid #0f0;
+	caption-side: bottom;
+}
+
+table th {
+	background: #000;
+	color: #0f0;
+	text-align: right;
+}
+
+table td {
+	background: #666;
+	color: #00f;
+	text-align: center;
+}
+
+form fieldset{
+	border: 3px solid #0f0;
+	float: left;
+	background: #666;
+}
+
+label {
+	display: block;
+	margin: 0.5em 0 0 0;
+	padding: 0.2em;
+}
+
+input {
+	padding: 0.5em;
+}
+
+input:focus {
+	border: 2px solid #000;
+	background: #AAA;
+}
+
+textarea:focus {
+	border: 2px solid #000;
+	background: #AAA;
+}
+
+#contenido {
+	float: right;
+	width: 85%;
+}
+
+#menu {
+	position: absolute;
+	top: 40%;
+}
+
+ul.menu {
+	width: 180px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #000;
+}
+
+ul.menu li {
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	background: #fff;
+}
+
+ul.menu li a {
+	padding: .2em 0 .2em 1.5em;
+	display: block;
+	text-decoration: none;
+	color: #000
+}
+
+ul.menu li a:hover, ul.menu li a:active {
+	background: #999
+}
+
+.cita {
+	text-align: left;
+	text-indent: 0;
+	padding-left: 35%;
+}
